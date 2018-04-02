@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'wltr';
+    src: url('assets/walterturncoat.ttf');
+}
+
+body
+{
+   overflow: hidden;
+}
+body.manifesto {
+    overflow: visible;
+}
+
+#fb{
+    position: relative;
+    display:inline;
+    float: right;
+    min-height: 0;
+    min-width: 0;
+    width: auto;
+    height: 50px;
+    left:auto;
+    right:auto;
+    margin-bottom: 1%;
+
+}
+
+#jegus {
+    vertical-align: bottom;
+     display:inline;
+    font-family:'wltr';
+    font-size: 30px;
+    color: #e6e2e7;
+     left:auto;
+     bottom:0px;
+    float: left;
+    opacity: 0.5;
+}
+
+img {
+
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+ min-height: 100%;
+min-width: 100%;
+width: auto;
+height: auto;
+  overflow: hidden;
+}
+
+canvas {
+
+display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  margin:auto;
+  width: 100%;
+  height: this.<width> * 0.625;
+overflow: hidden;
+}
+
+/*
+#main {
+    position: relative;
+    align-content: center;
+}
+*/
+.fade1 {
+    opacity: 1;
+    animation: fade 4.5s ease-in-out infinite alternate;
+}
+
+.fade2 {
+    opacity: 0;
+    animation: fade 3.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+
+
+.fullscreenDiv {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: this.width * 0.625;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+.center {
+    position: absolute;
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+
+#info {
+    height: 40px;
+    position: absolute;
+    bottom:1%;
+    width:98%;
+
+    opacity: 1;
+}
+
+#textus{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+     font-family:'wltr';
+    font-size: 25px;
+    color: #e6e2e7;
+
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: #e6e2e7;
+    opacity: 1;
+    font-family:'wltr';
+    font-size: 30px;
+
+}
